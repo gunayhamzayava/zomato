@@ -1,0 +1,472 @@
+{
+  "delivery": [
+    {
+      "id": 1,
+      "yemek_novu": "",
+      "cafe-adi": "Lovecity",
+      "yemek_adi": "Special Breakfast",
+      "image": "/lovecity.avif",
+      "icindekiler": "Vafli, mini pankeklər, xüsusi belçika şokoladı, çiyələk, banan, bal, qızardılmış tost çörəyi, yağ, qızardılmış sucuk və sosis, qaymaq, ağ pendir, yantar pendiri, qara və yaşıl zeytun, pomidor, xiyar, pomidor yumurta, kükü, çay",
+      "minute": "40",
+      "metbex": "",
+      "rating": "4.3",
+      "cost": "19.90",
+      "pure-veg": ""
+    },
+    {
+      "id": 2,
+      "yemek_novu": "",
+      "cafe-adi": "Cheerscafe",
+      "yemek_adi": "Quesadilla",
+      "image": "/cheers.avif",
+      "icindekiler": "Tortilla, toyuq filesi, jalapeno bibəri, qırmızı lobya, mozzarella pendiri",
+      "minute": "50",
+      "metbex": "Mexican",
+      "rating": "3.9",
+      "cost": "11.50",
+      "pure-veg": ""
+    },
+    {
+      "id": 3,
+      "yemek_novu": "",
+      "cafe-adi": "Why-be",
+      "yemek_adi": "Toyuqlu bowl salatı",
+      "image": "/whybee.png",
+      "icindekiler": "",
+      "minute": "20",
+      "metbex": "",
+      "rating": "4.5",
+      "cost": "20.00",
+      "pure-veg": ""
+    },
+    {
+      "id": 4,
+      "yemek_novu": "",
+      "cafe-adi": "Cafe Botanist",
+      "yemek_adi": "Glass Coffee",
+      "image": "/CafeBotanist.avif",
+      "icindekiler": "Espresso, kremlə bəzədilmiş, üç top dondurma",
+      "minute": "30",
+      "metbex": "",
+      "rating": "4.0",
+      "cost": "7.50",
+      "pure-veg": ""
+    },
+    {
+      "id": 5,
+      "yemek_novu": "",
+      "cafe-adi": "Cookmood",
+      "yemek_adi": "Panini Chicken Sandwich",
+      "image": "/cookmood.avif",
+      "icindekiler": "Panini çörəyi, toyuq filesi, rəngli bibər, göbələk, qaymaq, göbələk, mozzarella pendiri, kartof fri, qarışıq otlar, bal xardal sousu",
+      "minute": "35",
+      "metbex": "",
+      "rating": "4.2",
+      "cost": "9.50",
+      "pure-veg": ""
+    },
+    {
+      "id": 6,
+      "yemek_novu": "",
+      "cafe-adi": "Pizza Retro",
+      "yemek_adi": "Pizza Margherita",
+      "image": "/pizzaretro.avif",
+      "icindekiler": "Mozzarella pendiri, pizza sousu, albalı pomidoru",
+      "minute": "15",
+      "metbex": "Italian",
+      "rating": "4.5",
+      "cost": "9.00",
+      "pure-veg": ""
+    },
+    {
+      "id": 7,
+      "yemek_novu": "",
+      "cafe-adi": "LeoPort",
+      "yemek_adi": "Port of Mexico",
+      "image": "/leoport.avif",
+      "icindekiler": "140 q dana əti, çili, aioli sousu, halepeno bibəri, quacamole",
+      "minute": "30",
+      "metbex": "",
+      "rating": "4.8",
+      "cost": "8.90",
+      "pure-veg": ""
+    },
+    {
+      "id": 8,
+      "yemek_novu": "",
+      "cafe-adi": "CoffeeRab",
+      "yemek_adi": "Tuna Salad",
+      "image": "/cofferab.avif",
+      "icindekiler": "Tuna, qarğıdalı, kapers, göyərti, qoz",
+      "minute": "50",
+      "metbex": "",
+      "rating": "3.9",
+      "cost": "14.00",
+      "pure-veg": ""
+    },
+    {
+      "id": 9,
+      "yemek_novu": "",
+      "cafe-adi": "Chocoport",
+      "yemek_adi": "Chocoport Pancake",
+      "image": "/chocoport.avif",
+      "icindekiler": "Ananas, banan, kokos, M&M",
+      "minute": "30",
+      "metbex": "",
+      "rating": "4.5",
+      "cost": "13.00",
+      "pure-veg": ""
+    },
+    {
+      "id": 10,
+      "yemek_novu": "",
+      "cafe-adi": "Mixed Kabab",
+      "yemek_adi": "Mushroom Burger",
+      "image": "/MixedKabab.avif",
+      "icindekiler": "Göbələk, çedar pendiri, turşu, kahı, kartof qızartması",
+      "minute": "40",
+      "metbex": "",
+      "rating": "3.9",
+      "cost": "13.00",
+      "pure-veg": ""
+    },
+    {
+      "id": 11,
+      "yemek_novu": "",
+      "cafe-adi": "Bashkent",
+      "yemek_adi": "Monastery-style Meat",
+      "image": "bashkent.avif",
+      "icindekiler": "Garnitür ilə. Seçim restoran tərəfindən müəyyən edilir",
+      "minute": "20",
+      "metbex": "Germany",
+      "rating": "4.3",
+      "cost": "11.20",
+      "pure-veg": ""
+    }
+  ],
+
+  "food": [
+    {
+      "id": 1,
+      "yemek_novu": "Pizza",
+      "image": "/pizza.avif"
+    },
+    {
+      "id": 2,
+      "yemek_novu": "Burger",
+      "image": "/burger.avif"
+    },
+    {
+      "id": 3,
+      "yemek_novu": "Toyuq",
+      "image": "/toyuq.webp"
+    },
+    {
+      "id": 4,
+      "yemek_novu": "Rollar",
+      "image": "/rolls.avif"
+    },
+    {
+      "id": 5,
+      "yemek_novu": "Tali",
+      "image": "/thali.avif"
+    },
+    {
+      "id": 6,
+      "yemek_novu": "Biryani",
+      "image": "/biryani.avif"
+    },
+    {
+      "id": 7,
+      "yemek_novu": "Tort",
+      "image": "/cake.avif"
+    },
+    {
+      "id": 8,
+      "yemek_novu": "Şimali Hindistan",
+      "image": "/indian.avif"
+    },
+    {
+      "id": 9,
+      "yemek_novu": "Paneer",
+      "image": "/paneer.avif"
+    },
+    {
+      "id": 10,
+      "yemek_novu": "Dosa",
+      "image": "/dosa.avif"
+    },
+    {
+      "id": 11,
+      "yemek_novu": "Paratha",
+      "image": "/paratha.avif"
+    },
+    {
+      "id": 12,
+      "yemek_novu": "Noodle",
+      "image": "/noodles.avif"
+    }
+  ],
+  "cuisines": [
+    {
+      "id": 1,
+      "option": "Afghan"
+    },
+    {
+      "id": 2,
+      "option": "African"
+    },
+    {
+      "id": 3,
+      "option": "American"
+    },
+    {
+      "id": 4,
+      "option": "Andhra"
+    },
+    {
+      "id": 5,
+      "option": "Arabian"
+    },
+    {
+      "id": 6,
+      "option": "Asian"
+    },
+    {
+      "id": 7,
+      "option": "Assamese"
+    },
+    {
+      "id": 8,
+      "option": "Awadhi"
+    },
+    {
+      "id": 9,
+      "option": "BBQ"
+    },
+    {
+      "id": 10,
+      "option": "Bakery"
+    },
+    {
+      "id": 11,
+      "option": "Bangladeshi"
+    },
+    {
+      "id": 12,
+      "option": "Belgian"
+    },
+    {
+      "id": 13,
+      "option": "Bengali"
+    },
+    {
+      "id": 14,
+      "option": "Bihari"
+    },
+    {
+      "id": 15,
+      "option": "Biryani"
+    },
+    {
+      "id": 16,
+      "option": "Bohri"
+    },
+    {
+      "id": 17,
+      "option": "British"
+    },
+    {
+      "id": 18,
+      "option": "Bubble Tea"
+    },
+    {
+      "id": 19,
+      "option": "Burger"
+    },
+    {
+      "id": 20,
+      "option": "Burmese"
+    },
+    {
+      "id": 21,
+      "option": "Cantonese"
+    },
+    {
+      "id": 22,
+      "option": "Charcoal Chicken"
+    },
+    {
+      "id": 23,
+      "option": "Chettinad"
+    },
+    {
+      "id": 24,
+      "option": "Chinese"
+    },
+    {
+      "id": 25,
+      "option": "Coffee"
+    },
+    {
+      "id": 26,
+      "option": "Continental"
+    },
+    {
+      "id": 27,
+      "option": "Desserts"
+    },
+    {
+      "id": 28,
+      "option": "Egyptian"
+    },
+    {
+      "id": 29,
+      "option": "European"
+    },
+    {
+      "id": 30,
+      "option": "Fast Food"
+    },
+    {
+      "id": 31,
+      "option": "Finger Food"
+    },
+    {
+      "id": 32,
+      "option": "French"
+    },
+    {
+      "id": 33,
+      "option": "Frozen Yogurt"
+    },
+    {
+      "id": 34,
+      "option": "Germany"
+    },
+    {
+      "id": 35,
+      "option": "Goan"
+    },
+    {
+      "id": 36,
+      "option": "Greek"
+    },
+    {
+      "id": 37,
+      "option": "Grilled Chicken"
+    },
+    {
+      "id": 38,
+      "option": "Grocery"
+    },
+    {
+      "id": 39,
+      "option": "Gujarati"
+    },
+    {
+      "id": 40,
+      "option": "Healthy Food"
+    },
+    {
+      "id": 41,
+      "option": "Himachali"
+    },
+    {
+      "id": 42,
+      "option": "Hot Pot"
+    },
+    {
+      "id": 43,
+      "option": "Hot dogs"
+    },
+    {
+      "id": 44,
+      "option": "Hyderabadi"
+    },
+    {
+      "id": 45,
+      "option": "Ice Cream"
+    },
+    {
+      "id": 46,
+      "option": "Indonesian"
+    },
+    {
+      "id": 47,
+      "option": "Iranian"
+    },
+    {
+      "id": 48,
+      "option": "Israeli"
+    },
+    {
+      "id": 49,
+      "option": "Italian"
+    },
+    {
+      "id": 50,
+      "option": "Japanese"
+    },
+    {
+      "id": 51,
+      "option": "Juices"
+    },
+    {
+      "id": 52,
+      "option": "Kashmiri"
+    },
+    {
+      "id": 53,
+      "option": "Kebab"
+    },
+    {
+      "id": 54,
+      "option": "Kebabs"
+    },
+    {
+      "id": 55,
+      "option": "Kerala"
+    },
+    {
+      "id": 56,
+      "option": "Konkan"
+    },
+    {
+      "id": 57,
+      "option": "Korean"
+    },
+    {
+      "id": 58,
+      "option": "Lebanese"
+    },
+    {
+      "id": 59,
+      "option": "Lucknowi"
+    },
+    {
+      "id": 60,
+      "option": "Maharashtrian"
+    },
+    {
+      "id": 61,
+      "option": "Malaysian"
+    },
+    {
+      "id": 62,
+      "option": "Mandi"
+    },
+    {
+      "id": 63,
+      "option": "Mangalorean"
+    },
+    {
+      "id": 64,
+      "option": "Mediterranean"
+    },
+    {
+      "id": 65,
+      "option": "Spanish"
+    }
+  ]
+}
