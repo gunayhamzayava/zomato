@@ -65,6 +65,7 @@ function App() {
     "collection3",
     "collection4",
     "zomatoapp",
+    "blog",
   ];
 
   return (

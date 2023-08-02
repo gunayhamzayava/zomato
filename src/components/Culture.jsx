@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./Responsive__.css";
 
 function Culture() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/blogs/")
+    fetch("http://localhost:8000/blogs/?category=culture")
       .then((response) => response.json())
       .then((data) => {
         setBlogs(data);
@@ -35,8 +36,8 @@ function Culture() {
         </ul>
       </div>
       <div className="blog-map">
-        {blogs.slice(30, 40).map((blog) => (
-          <div key={blog.id}>
+        {blogs.map((blog) => (
+          <div key={blog.id} className="blog__one">
             <Link to={`/blog/${blog.id}`}>
               <div>
                 <img src={blog.image} alt="" />
@@ -44,6 +45,8 @@ function Culture() {
               <div>
                 <h4>{blog.title}</h4>
                 <p>{blog.created_date}</p>
+                <span>{blog.description}</span>
+                <p>{blog.category}</p>
               </div>
             </Link>
           </div>

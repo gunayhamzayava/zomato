@@ -23,6 +23,7 @@
     letter-spacing: -.5px;
 }
 
+
 .article p,
 h5 {
     margin-top: 40px;
@@ -46,8 +47,9 @@ h5 {
     gap: 10px;
 }
 
-.social__media img {
-    height: 27px;
-    width: 27px;
+.social__media i {
+    font-size: 27px;
+    color: #000;
     cursor: pointer;
+    margin-right: 15px;
 }

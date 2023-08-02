@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import "./Responsive__.css";
 function Community() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/blogs/")
+    fetch("http://localhost:8000/blogs/?category=community")
       .then((response) => response.json())
       .then((data) => {
         setBlogs(data);
@@ -34,8 +35,8 @@ function Community() {
         </ul>
       </div>
       <div className="blog-map">
-        {blogs.slice(10, 20).map((blog) => (
-          <div key={blog.id}>
+        {blogs.map((blog) => (
+          <div key={blog.id} className="blog__one">
             <Link to={`/blog/${blog.id}`}>
               <div>
                 <img src={blog.image} alt="" />
@@ -43,6 +44,8 @@ function Community() {
               <div>
                 <h4>{blog.title}</h4>
                 <p>{blog.created_date}</p>
+                <span>{blog.description}</span>
+                <p>{blog.category}</p>
               </div>
             </Link>
           </div>
